@@ -1,0 +1,9 @@
+body {
+	background:url(../images/blue_boxes.jpg) repeat top left #aeb6f5;
+	font-family:Neucha;
+	font-size:16px;
+}
+
+#content {
+	background: rgba(195, 238, 250, .5);
+}
