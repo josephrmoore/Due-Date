@@ -1,0 +1,36 @@
+<form id="enterDate" action="">
+	
+	<div class="due-date">
+		<h2>Enter your Due Date:</h2>
+			<label for="duedate" class="off">Due Date</label>
+			<input type="date" class="date text" id="duedate" name="duedate" required />
+	</div>
+	
+	<div class="time-of-day" id="timeOfDay">
+		<h2>Choose the time of day:</h2>
+		<div class="choices group">
+			<div class="row">
+				<input type="radio" value="morning" name="time" id="morning" />
+				<label for="morning">Morning</label>
+			</div>
+			<div class="row">
+				<input type="radio" value="afternoon" name="time" id="afternoon" checked />
+				<label for="afternoon">Afternoon</label>
+			</div>
+			<div class="row">
+				<input type="radio" value="evening" name="time" id="evening" />
+				<label for="evening">Evening</label>
+			</div>
+		</div>
+	</div>
+	
+	<div class="name-of-baby">
+		<h2>If you've picked a name for your baby, enter it here:</h2>
+		<div class="wrap">
+			<label for="babyname" class="overlayed">Name</label>
+			<input type="text" class="text" id="babyname" name="babyname" />
+		</div>
+	</div>
+	
+	<input type="submit" class="submit" value="Go" id="submit" />
+</form>

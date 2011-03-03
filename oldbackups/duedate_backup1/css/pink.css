@@ -1,0 +1,9 @@
+body {
+	background:url(../images/pink_bubbles.jpg) repeat top left #f5d0d0;
+	font-family:'Crafty Girls';
+	font-size:14px;
+}
+
+#content {
+	background: rgba(250, 195, 247, .5);
+}

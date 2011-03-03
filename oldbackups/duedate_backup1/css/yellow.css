@@ -1,0 +1,9 @@
+body {
+	background:url(../images/yellow_stripes.jpg) repeat top left #f4febd;
+	font-family:Sunshiney;
+	font-size:16px;
+}
+
+#content {
+	background: rgba(249, 243, 146, .5);
+}

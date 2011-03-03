@@ -1,0 +1,202 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary, video {
+  display:block;
+}
+
+/* Clearing Floats */
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+/* General Styles */
+
+.off {
+	display:none !important;
+}
+
+.text {
+	border:1px solid #555;
+	padding:3px 6px;
+}
+
+.wrap {
+	position:relative;
+}
+
+.overlayed {
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+#content {
+	width:956px;
+	margin:60px auto 0;
+	padding:10px;
+	position:relative;
+	text-align:center;
+}
+
+h1 {
+	font-size:300%;
+	margin-bottom:20px;
+}
+
+.theme-switcher {
+	padding:10px;
+	border:1px #000 solid;
+	width:140px;
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+.switch-switch {
+	display:block;
+	text-align:center;
+}
+
+.main-content {
+	clear:both;
+	margin-top:20px;
+	text-align:center;
+}
+
+.timer {
+	display:inline-block;
+	margin-bottom:60px;
+}
+
+.timer .time {
+	float:left;
+	margin-right:10px;
+	font-size:200%;
+}
+
+.re-enter {
+	clear:both;
+	text-align:center;
+}
+
+.re-enter button {
+	background:#555;
+	color:#fff;
+	-moz-border-radius:7px 7px 7px 7px;
+	-webkit-border-radius:7px 7px 7px 7px;
+	border-radius:7px 7px 7px 7px;
+	padding:4px 8px;
+	border:none;
+}
+
+.due-date h2 {
+	font-size:300%;
+	margin:20px 0;
+}
+
+.due-date input {
+	font-size:24px;
+	margin-bottom:40px;
+}
+
+.time-of-day h2 {
+	font-size:200%;
+}
+
+.time-of-day .choices {
+	width:150px;
+	margin:20px auto 40px;
+	font-size:150%;
+}
+
+.time-of-day .row {
+	float:left;
+	clear:left;
+}
+
+.name-of-baby h2 {
+	font-size:200%;
+	margin-bottom:20px;
+}
+
+.name-of-baby input {
+	font-size:24px;
+	margin-bottom:20px;
+}
+
+.name-of-baby .overlayed {
+	left:350px;
+	font-size:24px;
+	top:10px;
+}
+
+.submit {
+	background:#555;
+	color:#fff;
+	-moz-border-radius:7px 7px 7px 7px;
+	-webkit-border-radius:7px 7px 7px 7px;
+	border-radius:7px 7px 7px 7px;
+	padding:4px 8px;
+	border:none;
+	font-size:150%;
+}
